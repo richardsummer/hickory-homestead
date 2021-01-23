@@ -129,3 +129,5 @@ STATIC_URL = '/static/'
 
 REACT_APP_DIR = os.path.join(BASE_DIR, 'frontend/static')
 STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'frontend/static/build/static'), )
+
+AUTH_USER_MODEL = 'accounts.User'
